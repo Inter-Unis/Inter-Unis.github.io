@@ -21,6 +21,27 @@
   color: grey !important;
 }
 
+#navbar-logo {
+  height: 80px;
+  width: auto;
+}
+
+#navbar-logo > img {
+  height: 100%;
+  width: auto;
+}
+
+#footer {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer-logo {
+  height: 50px;
+  width: auto;
+}
 
 /* Set gray background color and 100% height */
 .sidenav {
