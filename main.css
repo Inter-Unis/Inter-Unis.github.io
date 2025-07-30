@@ -33,7 +33,25 @@
 
 #footer {
   display: flex;
-  justify-content:space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #093161;
+  color: white;
+  padding: 15px;
+}
+
+.footer-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer-sponsor-row {
+  display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
 }
@@ -43,18 +61,16 @@
   width: auto;
 }
 
+.sponsor-logo {
+  width: 100px;
+  height: auto;
+}
+
 /* Set gray background color and 100% height */
 .sidenav {
   padding-top: 20px;
   background-color: #093161;
   height: 100%;
-}
-
-/* Set black background color, white text and some padding */
-footer {
-  background-color: #093161;
-  color: white;
-  padding: 15px;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
